@@ -1,0 +1,32 @@
+footer {
+
+    .footer-up {
+        padding: 30px 80px;
+        background-color: $blue-link;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            max-width: 1170px;
+            margin: auto;
+            li {
+                width: calc(100% / 5);
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 50px;
+                }
+                .last-img {
+                    width: 50px;
+                }
+                h4 {
+                    color: white;
+                    margin-left: 10px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
