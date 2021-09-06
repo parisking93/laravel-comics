@@ -23,5 +23,37 @@ Route::get('/characters', function () {
     return view('partials.characters');
 })->name('characters');
 
+Route::get('/movie', function () {
+    return view('partials.movie');
+})->name('movie');
+
+Route::get('/tv', function () {
+    return view('partials.tv');
+})->name('tv');
+
+Route::get('/game', function () {
+    return view('partials.game');
+})->name('game');
+
+Route::get('/collectibles', function () {
+    return view('partials.collectibles');
+})->name('collectibles');
+
+Route::get('/videos', function () {
+    return view('partials.videos');
+})->name('videos');
+
+Route::get('/fans', function () {
+    return view('partials.fans');
+})->name('fans');
+
+Route::get('/news', function () {
+    return view('partials.news');
+})->name('news');
+
+Route::get('/shop', function () {
+    return view('partials.shop');
+})->name('shop');
+
 
 
