@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('/characters', function () {
     return view('partials.characters');
 })->name('characters');
+
+
+

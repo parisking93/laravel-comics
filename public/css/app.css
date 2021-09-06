@@ -8,6 +8,13 @@ main {
   background-color: #1c1c1c;
 }
 
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
 header .header-bar {
   background-color: #0282f9;
   height: 20px;
@@ -20,15 +27,11 @@ header .container-center {
   height: 100px;
   margin: auto;
 }
-header .container-center ul {
-  list-style: none;
-}
 header .container-center ul li {
   display: inline-block;
   margin: 0 5px;
 }
 header .container-center ul li a {
-  text-decoration: none;
   color: black;
   text-transform: uppercase;
   font-weight: 600;
@@ -39,6 +42,7 @@ header .container-center .container-logo img {
 header .container-center input {
   border: 1px solid transparent;
   border-bottom-color: #0282f9;
+  outline: none;
 }
 header .jumbotron {
   background-image: url(/images/jumbotron.jpg?9b3ac9ec673a8ec0c2c6eef1f6ea6bb4);
@@ -67,6 +71,9 @@ header .jumbotron {
   margin-bottom: 20px;
 }
 
+footer {
+  width: 100%;
+}
 footer .footer-up {
   padding: 30px 80px;
   background-color: #0282f9;
@@ -94,4 +101,51 @@ footer .footer-up ul li h4 {
   color: white;
   margin-left: 10px;
   width: 100%;
+}
+footer .footer-center {
+  background-image: url(/images/footer-bg.jpg?30a5c2238c63921788be216d1794abf7);
+  background-size: cover;
+}
+footer .footer-center .footer-center-box {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+footer .footer-center .footer-center-box .footer-center-left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  padding: 50px 0;
+}
+footer .footer-center .footer-center-box .footer-center-left ul {
+  width: calc(100% / 4);
+  margin-right: 15px;
+}
+footer .footer-center .footer-center-box .footer-center-left ul li h3 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+footer .footer-center .footer-center-box .footer-center-left ul li a {
+  color: #828885;
+  text-transform: capitalize;
+}
+footer .footer-center .footer-center-box .footer-center-left .last {
+  margin-top: -80px;
+}
+footer .footer-center .footer-center-box .footer-center-left .footer-center-bottom {
+  width: 100%;
+  color: #828885;
+}
+footer .footer-center .footer-center-box .footer-center-left .footer-center-bottom span {
+  color: #0282f9;
+}
+footer .footer-center .footer-center-box .footer-center-right {
+  width: 60%;
+  height: 500px;
+  background-image: url(/images/dc-logo-bg.png?571b04c07ce56ce40d7896d4da7b2bc0);
+  background-size: cover;
+  background-position: center;
 }

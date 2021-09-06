@@ -13,12 +13,10 @@ header {
     
     
         ul {
-            list-style: none;
             li {
                 display: inline-block;
                 margin: 0 5px;
                 a {
-                    text-decoration: none;
                     color: $black;
                     text-transform: uppercase;
                     font-weight: 600;
@@ -31,6 +29,7 @@ header {
         input {
             border: 1px solid transparent;
             border-bottom-color: $blue-link;
+            outline: none;
         }
     }
     .jumbotron {
