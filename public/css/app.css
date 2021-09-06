@@ -3,3 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+header .header-bar {
+  background-color: #0282f9;
+  height: 20px;
+}
+header .container-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+}
+header .container-center ul {
+  list-style: none;
+}
+header .container-center ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+header .container-center ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+header .container-center .container-logo img {
+  height: 80px;
+}
+header .jumbotron {
+  background-image: url(/images/jumbotron.jpg?9b3ac9ec673a8ec0c2c6eef1f6ea6bb4);
+  background-size: cover;
+  background-position: top;
+  height: 300px;
+  width: 100%;
+}
