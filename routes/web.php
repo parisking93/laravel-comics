@@ -18,3 +18,7 @@ Route::get('/', function () {
     $data = ['db'=> $comics];
     return view('partials.comics', $data);
 })->name('comics');
+
+Route::get('/characters', function () {
+    return view('partials.characters');
+})->name('characters');

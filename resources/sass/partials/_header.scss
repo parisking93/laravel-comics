@@ -28,6 +28,10 @@ header {
         .container-logo img {
             height: 80px;
         }
+        input {
+            border: 1px solid transparent;
+            border-bottom-color: $blue-link;
+        }
     }
     .jumbotron {
         background-image: url('../../../public/img/jumbotron.jpg');
