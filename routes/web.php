@@ -16,43 +16,43 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
     $data = ['db'=> $comics];
-    return view('partials.comics', $data);
+    return view('comics', $data);
 })->name('comics');
 
 Route::get('/characters', function () {
-    return view('partials.characters');
+    return view('characters');
 })->name('characters');
 
 Route::get('/movie', function () {
-    return view('partials.movie');
+    return view('movie');
 })->name('movie');
 
 Route::get('/tv', function () {
-    return view('partials.tv');
+    return view('tv');
 })->name('tv');
 
 Route::get('/game', function () {
-    return view('partials.game');
+    return view('game');
 })->name('game');
 
 Route::get('/collectibles', function () {
-    return view('partials.collectibles');
+    return view('collectibles');
 })->name('collectibles');
 
 Route::get('/videos', function () {
-    return view('partials.videos');
+    return view('videos');
 })->name('videos');
 
 Route::get('/fans', function () {
-    return view('partials.fans');
+    return view('fans');
 })->name('fans');
 
 Route::get('/news', function () {
-    return view('partials.news');
+    return view('news');
 })->name('news');
 
 Route::get('/shop', function () {
-    return view('partials.shop');
+    return view('shop');
 })->name('shop');
 
 

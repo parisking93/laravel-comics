@@ -30,7 +30,7 @@ footer {
         }
     }
     .footer-center {
-        background-image: url('../../../public/img/footer-bg.jpg');
+        background-image: url('/img/footer-bg.jpg');
         background-size: cover;
         .footer-center-box {
             max-width: 1170px;
@@ -60,7 +60,7 @@ footer {
                     }
                 }
                 .last {
-                    margin-top: -80px;
+                    margin-top: -100px;
                 }
                 .footer-center-bottom {
                     width: 100%;

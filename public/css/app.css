@@ -24,6 +24,7 @@ header .container-center {
   justify-content: space-between;
   align-items: center;
   width: 90%;
+  max-width: 1440px;
   height: 100px;
   margin: auto;
 }
@@ -35,6 +36,9 @@ header .container-center ul li a {
   color: black;
   text-transform: uppercase;
   font-weight: 600;
+}
+header .container-center ul li:hover a {
+  color: #0282f9;
 }
 header .container-center .container-logo img {
   height: 80px;
@@ -133,7 +137,7 @@ footer .footer-center .footer-center-box .footer-center-left ul li a {
   text-transform: capitalize;
 }
 footer .footer-center .footer-center-box .footer-center-left .last {
-  margin-top: -80px;
+  margin-top: -100px;
 }
 footer .footer-center .footer-center-box .footer-center-left .footer-center-bottom {
   width: 100%;
