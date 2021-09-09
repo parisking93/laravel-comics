@@ -64,5 +64,23 @@
         </div>
        
     </div>
+    <div class="footer-down">
+        <div class="box-footer-down">
+            <button>
+                sign-up now!
+            </button>
+            <div class="box-social">
+                <h2>follow us</h2>
+                <div class="box-icon">
+                    <img src="{{ asset('img/footer-facebook.png') }}" alt="">
+                    <img src="{{ asset('img/footer-periscope.png') }}" alt="">
+                    <img src="{{ asset('img/footer-pinterest.png') }}" alt="">
+                    <img src="{{ asset('img/footer-twitter.png') }}" alt="">
+                    <img src="{{ asset('img/footer-youtube.png') }}" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </footer>

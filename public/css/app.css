@@ -49,7 +49,7 @@ header .container-center input {
   outline: none;
 }
 header .jumbotron {
-  background-image: url(/images/jumbotron.jpg?9b3ac9ec673a8ec0c2c6eef1f6ea6bb4);
+  background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   background-position: top;
   height: 300px;
@@ -73,6 +73,42 @@ header .jumbotron {
 }
 .row .box-card h3 {
   margin-bottom: 20px;
+}
+.row .box-card h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+main h1 {
+  color: white;
+}
+
+.container-single-comic {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 50px 80px;
+  max-width: 1170px;
+}
+.container-single-comic .single-comic-right {
+  margin-left: 50px;
+}
+.container-single-comic .single-comic-right * {
+  margin-bottom: 10px;
+}
+
+.box-button {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.box-button button {
+  color: white;
+  background-color: #0282f9;
+  padding: 5px 25px;
+  border: 1px solid #0282f9;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 footer {
@@ -107,7 +143,7 @@ footer .footer-up ul li h4 {
   width: 100%;
 }
 footer .footer-center {
-  background-image: url(/images/footer-bg.jpg?30a5c2238c63921788be216d1794abf7);
+  background-image: url("/img/footer-bg.jpg");
   background-size: cover;
 }
 footer .footer-center .footer-center-box {
@@ -149,7 +185,36 @@ footer .footer-center .footer-center-box .footer-center-left .footer-center-bott
 footer .footer-center .footer-center-box .footer-center-right {
   width: 60%;
   height: 500px;
-  background-image: url(/images/dc-logo-bg.png?571b04c07ce56ce40d7896d4da7b2bc0);
+  background-image: url("/img/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
+}
+footer .footer-down {
+  height: 80px;
+  background-color: #303030;
+}
+footer .footer-down .box-footer-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+footer .footer-down .box-footer-down button {
+  color: white;
+  background-color: #303030;
+  padding: 10px;
+  border: 2px solid #0282f9;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+footer .footer-down .box-footer-down .box-social {
+  display: flex;
+  align-items: center;
+}
+footer .footer-down .box-footer-down .box-social h2 {
+  color: #0282f9;
+  text-transform: uppercase;
+  margin-right: 30px;
 }

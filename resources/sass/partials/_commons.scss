@@ -13,3 +13,12 @@ ul {
         text-decoration: none;
     }
 }
+
+@mixin button-white( $bg-color, $padding, $border) {
+    color : white;
+    background-color: $bg-color;
+    padding: $padding;
+    border : $border;
+    text-transform: uppercase;
+    cursor: pointer;
+}

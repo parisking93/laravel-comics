@@ -8,4 +8,7 @@
             </div>
         @endforeach
     </div>
+    <div class="box-button">
+        <button >load more</button>
+    </div>
 @endsection

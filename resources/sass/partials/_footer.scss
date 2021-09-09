@@ -73,12 +73,39 @@ footer {
             .footer-center-right {
                 width: 60%;
                 height: 500px;
-                background-image: url('../../../public/img/dc-logo-bg.png');
+                background-image: url('/img/dc-logo-bg.png');
                 background-size: cover;
                 background-position: center;
 
             }
 
+        }
+
+    }
+
+    .footer-down {
+        height: 80px;
+        background-color: #303030;
+        .box-footer-down {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            max-width: 1170px;
+            margin: auto;
+            button {
+                @include button-white(#303030, 10px,2px solid $blue-link);
+            }
+            .box-social {
+                display: flex;
+                align-items: center;
+                h2 {
+                    color: $blue-link;
+                    text-transform: uppercase;
+                    margin-right: 30px;
+
+                }
+            }
         }
 
     }
